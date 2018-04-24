@@ -33,11 +33,21 @@ Python installation::
 
     pip install sas-dlpy
 
-Note: To enable graphic visualizations of DLPy deep learning models, 
+Note: 
+
+1. To enable graphic visualizations of DLPy deep learning models, 
 it is recommended that you download and install the open source graph 
 visualization software called Graphviz. Graphviz is available at
 https://www.graphviz.org/download/.
 
+
+2. The Keras model conversion requires a Keras package with version 2.1.3 or newer.
+It can be downloaded from https://github.com/keras-team/keras or installed/updated by 
+running the following command in the command line::
+    pip install --upgrade keras
+    
+3. To enable the Caffe model conversion, a Caffe package with version 1.0.0 or newer must be installed.
+The instruction of Caffe installation is available at http://caffe.berkeleyvision.org/installation.html.
 
 Documentation
 =============
