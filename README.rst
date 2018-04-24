@@ -33,11 +33,16 @@ Python installation::
 
     pip install sas-dlpy
 
-Note: To enable graphic visualizations of DLPy deep learning models, 
+Note: 
+
+1. To enable graphic visualizations of DLPy deep learning models, 
 it is recommended that you download and install the open source graph 
 visualization software called Graphviz. Graphviz is available at
 https://www.graphviz.org/download/.
 
+2. To use the Keras model conversion functions, the installation 
+Keras with version 2.0 or newer is required. The Keras package is available at
+https://github.com/keras-team/keras
 
 Documentation
 =============
