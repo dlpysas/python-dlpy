@@ -34,3 +34,18 @@ system, and add the location of the ``bin/`` subdirectory to your systems' path.
 To verify that the utilities will work, run the following command::
 
     dot -V
+
+Keras (Optional)
+****************
+
+To enable the Keras model conversion, a Keras package with version 2.1.3 or newer is required.
+It can be downloaded from https://github.com/keras-team/keras or installed/updated by 
+running the following command in the command line::
+    pip install --upgrade keras
+    
+    
+Caffe (Optional)
+****************
+
+To enable the Caffe model conversion, a Caffe package with version 1.0.0 or newer is required.
+The instruction of Caffe installation is available at http://caffe.berkeleyvision.org/installation.html.
